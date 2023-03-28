@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <!-- Font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700;800&display=swap" rel="stylesheet">
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+    <!-- Css -->
+    <link rel='stylesheet' type='text/css' href='style.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    
+    <!-- Navbar -->
+    <nav class="navbar">
+
+        <a href="#" class="navbar-logo"></a>
+        <div class="navbar-menu">
+            <a href="#" class="navbar-menu-item">Beranda</a>
+            <a href="#" class="navbar-menu-item">Cari Dokter</a>
+            <a href="#" class="navbar-menu-item">Artikel</a>
+            <a href="#" class="navbar-menu-item">Toko Obat</a>
+        </div>
+
+        <div class="navbar-active">
+            <a href="#" id="search"><i data-feather="search"></i></a>
+            <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="navbar-action-item">Masuk</a>
+            <a href="#" class="navbar-action-item-daftar">Daftar</a>
+            <a href="#" id="menu"><i data-feather="menu"></i></a>
+        </div>
+  
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Hero Image -->
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Cari Dokter Terbaik di Sekitar Anda</h1>
+            <p class="hero-subtitle">Temukan dokter terbaik di sekitar anda dengan mudah dan cepat</p>
+            <a href="#" class="hero-action-item">Konsultasi Sekarang</a>
+        </div>
+
+    </section>
+    <!-- End Hero Iamge -->
+
+    <!-- Promo -->
+
+    <div class="promo">       
+    
+        <div class="card">
+            <img class="img" src="icon/medical (2).png" alt="penyakit6">
+            <div class="container">
+                <h4><b>Spesialisasi</b></h4>
+                <p>Chat Dokter Umum atau Spesialis mu disini</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <img class="img" src="icon/medical (1).png" alt="penyakit6">
+            <div class="container">
+                <h4><b>Konsultasi</b></h4>
+                <p>Cek Konsultasi Yang Akan Datang dan Telah Selesai</p>
+            </div>
+        </div>
+    
+        <div class="card2">
+            <div class="container">
+                <h4><b>Ada Banyak Promo Menarik Untukmu</b></h4>
+                <div class="lihat-semua">
+                    <p>Lihat Semua Promo</p>
+                    <img class="img" src="icon/arrow.png" alt="penyakit6">
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+        <!-- Daftar Penyakit -->
+
+    <section class="penyakit">
+
+        <div class="penyakit-content">
+            <p class="cari-dokter">Cari Dokter umum atau Spesialis</p>
+            <div class="button">Lihat Semuanya</div>
+        </div>
+    
+        <div class="daftar-penyakit">
+              
+            <div class="penyakit-item">
+                <div class="penyakit-item-content">
+                    <img class="gambar-penyakit" src="icon/umum.png" alt="penyakit9">
+                    <h3 class="penyakit-item-title">Dokter Umum</h3>
+                </div>
+                <div class="penyakit-item-content">
+                    <img class="gambar-penyakit" src="icon/Paru-paru.png" alt="penyakit2">
+                    <h3 class="penyakit-item-title">Penyakit Paru</h3>
+                </div>
+                <div class="penyakit-item-content">
+                    <img class="gambar-penyakit" src="icon/Ginjal.png" alt="penyakit3">
+                    <h3 class="penyakit-item-title">Penyakit Ginjal</h3>
+                </div>
+                <div class="penyakit-item-content">
+                    <img class="gambar-penyakit" src="icon/mata.png" alt="penyakit4">
+                    <h3 class="penyakit-item-title">Penyakit Mata</h3>
+                </div>
+                <div class="penyakit-item-content">
+                    <img  class="gambar-penyakit" src="icon/tulang.png" alt="penyakit5">
+                    <h3 class="penyakit-item-title">Penyakit Tulang</h3>
+                </div>
+                <div class="penyakit-item-content">
+                    <img  class="gambar-penyakit" src="icon/mental.png" alt="penyakit5">
+                    <h3 class="penyakit-item-title">Penyakit Mental</h3>
+                </div>    
+            </div>
+              
+            <div class="penyakit-item">
+    
+                <div class="penyakit-item-content">
+                    <img class="gambar-penyakit" src="icon/otak.png" alt="penyakit6">
+                    <h3 class="penyakit-item-title">Penyakit Otak</h3>
+                </div>
+                <div class="penyakit-item-content">
+                    <img class="gambar-penyakit" src="icon/Telinga.png" alt="penyakit7">
+                    <h3 class="penyakit-item-title">Penyakit Telinga</h3>
+                </div>
+                <div class="penyakit-item-content">
+                    <img class="gambar-penyakit" src="icon/Pencernaan.png" alt="penyakit6">
+                    <h3 class="penyakit-item-title">Penyakit Pencernaan</h3>
+                </div>
+                <div class="penyakit-item-content">
+                    <img class="gambar-penyakit" src="icon/babi.png" alt="penyakit7">
+                    <h3 class="penyakit-item-title">Dokter Bayi</h3>
+                </div>                
+                <div class="penyakit-item-content">
+                    <img class="gambar-penyakit" src="icon/hamil.png" alt="penyakit8">
+                    <h3 class="penyakit-item-title">Dokter Kandungan</h3>
+                </div>
+                <div class="penyakit-item-content">
+                    <img class="gambar-penyakit" src="icon/Jantung.png" alt="penyakit1">
+                    <h3 class="penyakit-item-title">Penyakit Jantung</h3>
+                </div> 
+
+            </div>
+        </div>
+    </section>
+    
+<!-- End Daftar Penyakit -->
+
+<!-- Dokter Rekomendasi -->
+<section class="dokter-rekomendasi">
+    <div class="dokter-rekomendasi-title">
+        <p class="cari-dokter">Dokter Rekomendasi</p>
+    </div>
+
+    <div class="dokter-rekomendasi-content">
+        
+        <div class="card">
+            <div class="card-img">
+            </div>
+
+            <div class="card-nama">
+                <h4><b>John Doe</b></h4>
+                <p>Architect & Engineer</p>
+            </div>
+
+            <div class="card-icon">
+                <div class="card-icon-item">
+                    <a href="#" class="star"><i class="fa fa-star" aria-hidden="true"></i> </a>
+                    <p><span> 5 </span>(291)</p>
+                </div>
+                <div class="card-icon-item">
+                    <a href="#" class="bag"><i class="fa fa-medkit" aria-hidden="true"></i> </a>
+                    <p> 1 Tahun</p>
+                </div>
+
+            </div>
+
+            <div class="card-ket">
+                <div class="card-ket-item">
+                    <p>Mulai Dari</p>
+                    <h4>Rp. 25.000</h4>
+                </div>
+                
+            </div>
+            <div class="card-ket-item2">
+                <a href="#">Mulai Konsultasi</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-img">
+            </div>
+
+            <div class="card-nama">
+                <h4><b>John Doe</b></h4>
+                <p>Architect & Engineer</p>
+            </div>
+
+            <div class="card-icon">
+                <div class="card-icon-item">
+                    <a href="#" class="star"><i class="fa fa-star" aria-hidden="true"></i> </a>
+                    <p><span> 5 </span>(291)</p>
+                </div>
+                <div class="card-icon-item">
+                    <a href="#" class="bag"><i class="fa fa-medkit" aria-hidden="true"></i> </a>
+                    <p> 1 Tahun</p>
+                </div>
+
+            </div>
+
+            <div class="card-ket">
+                <div class="card-ket-item">
+                    <p>Mulai Dari</p>
+                    <h4>Rp. 25.000</h4>
+                </div>
+                
+            </div>
+            <div class="card-ket-item2">
+                <a href="#">Mulai Konsultasi</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-img">
+            </div>
+
+            <div class="card-nama">
+                <h4><b>John Doe</b></h4>
+                <p>Architect & Engineer</p>
+            </div>
+
+            <div class="card-icon">
+                <div class="card-icon-item">
+                    <a href="#" class="star"><i class="fa fa-star" aria-hidden="true"></i> </a>
+                    <p><span> 5 </span>(291)</p>
+                </div>
+                <div class="card-icon-item">
+                    <a href="#" class="bag"><i class="fa fa-medkit" aria-hidden="true"></i> </a>
+                    <p> 1 Tahun</p>
+                </div>
+
+            </div>
+
+            <div class="card-ket">
+                <div class="card-ket-item">
+                    <p>Mulai Dari</p>
+                    <h4>Rp. 25.000</h4>
+                </div>
+                
+            </div>
+            <div class="card-ket-item2">
+                <a href="#">Mulai Konsultasi</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-img">
+            </div>
+
+            <div class="card-nama">
+                <h4><b>John Doe</b></h4>
+                <p>Architect & Engineer</p>
+            </div>
+
+            <div class="card-icon">
+                <div class="card-icon-item">
+                    <a href="#" class="star"><i class="fa fa-star" aria-hidden="true"></i> </a>
+                    <p><span> 5 </span>(291)</p>
+                </div>
+                <div class="card-icon-item">
+                    <a href="#" class="bag"><i class="fa fa-medkit" aria-hidden="true"></i> </a>
+                    <p> 1 Tahun</p>
+                </div>
+
+            </div>
+
+            <div class="card-ket">
+                <div class="card-ket-item">
+                    <p>Mulai Dari</p>
+                    <h4>Rp. 25.000</h4>
+                </div>
+            </div>
+            <div class="card-ket-item2">
+                <a href="#">Mulai Konsultasi</a>
+            </div>
+
+        </div>
+    </div>
+
+</section>    
+
+<!-- End Dokter Rekomendasi -->
+
+<!-- Testimonial -->
+<section class="daftar-testimoni">
+    <div class="testimoni-content">
+            <p class="tentang-kami">Apa Kata Mereka Tentang Kami</p>
+            <div class="button">Lihat Semuanya</div>
+    </div>
+
+    <div class="testimoni">       
+        <div class="card-testimoni">
+            <div class="testimoni-star">
+                <a href="#"><i class="fa fa-star" aria-hidden="true"></i> </a>
+                <a href="#"><i class="fa fa-star" aria-hidden="true"></i> </a>
+                <a href="#"><i class="fa fa-star" aria-hidden="true"></i> </a>
+                <a href="#"><i class="fa fa-star" aria-hidden="true"></i> </a>
+                <a href="#"><i class="fa fa-star" aria-hidden="true"></i> </a>
+            </div>
+
+            <p>Saya sangat terkesan dengan layanan telemedicine yang diberikan oleh Telemedicine. Saya memiliki gangguan kecemasan dan.........</p>
+            
+            <div class="container-testimoni">
+                <img class="img" src="image/client.jpg" alt="penyakit6">
+               <div class="container-id">
+                <h4><b>John Doe</b></h4>
+                  <p>Architect & Engineer</p>
+               </div>
+            </div>
+            
+            
+        </div>
+    
+        <div class="card-testimoni">
+            <div class="testimoni-star">
+                <a href="#"><i class="fa fa-star" aria-hidden="true"></i> </a>
+                <a href="#"><i class="fa fa-star" aria-hidden="true"></i> </a>
+                <a href="#"><i class="fa fa-star" aria-hidden="true"></i> </a>
+                <a href="#"><i class="fa fa-star" aria-hidden="true"></i> </a>
+                <a href="#"><i class="fa fa-star" aria-hidden="true"></i> </a>
+            </div>
+
+            <p>Saya sangat terkesan dengan layanan telemedicine yang diberikan oleh Telemedicine. Saya memiliki gangguan kecemasan dan.........</p>
+            
+            <div class="container-testimoni">
+                <img class="img" src="image/client.jpg" alt="penyakit6">
+               <div class="container-id">
+                <h4><b>John Doe</b></h4>
+                  <p>Architect & Engineer</p>
+               </div>
+            </div>
+            
+            
+        </div>
+        <div class="card-testimoni">
+            <div class="testimoni-star">
+                <a href="#"><i class="fa fa-star" aria-hidden="true"></i> </a>
+                <a href="#"><i class="fa fa-star" aria-hidden="true"></i> </a>
+                <a href="#"><i class="fa fa-star" aria-hidden="true"></i> </a>
+                <a href="#"><i class="fa fa-star" aria-hidden="true"></i> </a>
+                <a href="#"><i class="fa fa-star" aria-hidden="true"></i> </a>
+            </div>
+
+            <p>Saya sangat terkesan dengan layanan telemedicine yang diberikan oleh Telemedicine. Saya memiliki gangguan kecemasan dan.........</p>
+            
+            <div class="container-testimoni">
+                <img class="img" src="image/client.jpg" alt="penyakit6">
+               <div class="container-id">
+                <h4><b>John Doe</b></h4>
+                  <p>Architect & Engineer</p>
+               </div>
+            </div>    
+            
+        </div>
+
+    </div>
+
+</section>
+
+<!-- End Testimonial -->
+
+<!-- Banner -->
+<section class="banner">
+</section>
+
+<!-- End Banner -->
+
+<!-- Artikel -->
+<section class="artikel">
+    <div class="artikel-title">
+        <p class="tentang-kami">Baca 100+ Artikel</p>
+        <div class="button">Lihat Semuanya</div>
+    </div>
+
+    <div class="artikel-kategori">
+        <a href="#" class="button-terbaru"> Terbaru </a>
+        <a href="#" class="button"> Populer </a>
+        <a href="#" class="button"> Kehamilan </a>
+        <a href="#" class="button"> Kolesterol </a>
+        <a href="#" class="button"> Flu Babi </a>
+    </div>
+
+    <div class="artikel-content">
+        
+        <div class="card">
+            <div class="card-img">
+            </div>
+
+            <div class="card-ket">
+                <p class="judul">Kenali Cara dan Tips Berpuasa Bagi Ibu Hamil</p>
+                <p class="ket">Stroke</p>
+
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-img">
+            </div>
+
+            <div class="card-ket">
+                <p class="judul">Kenali Cara dan Tips Berpuasa Bagi Ibu Hamil</p>
+                <p class="ket">Stroke</p>
+
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-img">
+            </div>
+
+            <p class="judul">Kenali Cara dan Tips Berpuasa Bagi Ibu Hamil</p>
+            <p class="ket">Stroke</p>
+
+        </div>
+        
+
+    </div>
+
+        <div class="artikel-content">
+        
+        <div class="card">
+            <div class="card-img">
+            </div>
+
+            <div class="card-ket">
+                <p class="judul">Kenali Cara dan Tips Berpuasa Bagi Ibu Hamil</p>
+                <p class="ket">Stroke</p>
+
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-img">
+            </div>
+
+            <div class="card-ket">
+                <p class="judul">Kenali Cara dan Tips Berpuasa Bagi Ibu Hamil</p>
+                <p class="ket">Stroke</p>
+
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-img">
+            </div>
+
+            <p class="judul">Kenali Cara dan Tips Berpuasa Bagi Ibu Hamil</p>
+            <p class="ket">Stroke</p>
+
+        </div>
+        
+
+    </div>
+
+</section>   
+
+<!-- End Artikel -->
+
+<!-- footer -->
+
+<footer class="footer-section">
+
+    <div class="company">
+        <img class="img" src="image/logo.jpg" alt="penyakit6">
+        <p class="company-item">Kami berkomitmen untuk menyediakan
+            layanan telemedicine yang aman, andal, dan
+            terangkau bagi semua orang</p>
+    </div>
+
+    <div class="about">
+        <div class="fitur">
+            <h4 class="title">Fitur</h4>
+            <div class="fitur-item">
+                <a href="#">Booking</a>
+                <a href="">promo</a>
+                <a href="">Artikel</a>
+                <a href="">Cek Dokter</a>
+                <a href="">Penyakit</a>
+    
+            </div>
+        </div>
+
+        <div class="fitur">
+            <h4 class="title">Perusahaan</h4>
+           <div class="fitur-item">
+            <a href="">Tentang Kami</a>
+            <a href="">Karir</a>
+            <a href="">Kontak Kami</a>
+           </div>
+            
+        </div>
+
+        <div class="fitur">
+            <h4 class="title">Syarat dan Ketentuan</h4>
+            <div class="fitur-item">
+            <a href="">Privacy Policy</a>
+            <a href="">Kebijakan Editorial</a>
+            <a href="">Direktory Tag</a>
+            <a href="">Pusat Bantuan</a>
+        </div>
+        </div>
+    </div>
+</footer>
+
+
+
+<!-- Feather Icons -->
+    <script>
+        feather.replace()
+      </script>
+</body>
+</html>
